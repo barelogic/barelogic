@@ -9,8 +9,8 @@ Outputs (all self-contained, SMIL-only animation, no third-party loads):
   hd-*.svg   — section headings in this page's own typeface
 
 Usage:
-  python scripts/generate_stats.py --user VenkateshR-Karunya --demo
-  GITHUB_TOKEN=... python scripts/generate_stats.py --user VenkateshR-Karunya
+  python scripts/generate_stats.py --user barelogic --demo
+  GITHUB_TOKEN=... python scripts/generate_stats.py --user barelogic
 
 Language totals cover public repositories only. Nothing is fetched from
 anyone else's server at view time.
@@ -321,7 +321,7 @@ FONT_PATH = "scripts/fonts/JetBrainsMono-Regular.ttf"
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--user", default=os.environ.get("PROFILE_USER", "VenkateshR-Karunya"))
+    ap.add_argument("--user", default=os.environ.get("PROFILE_USER", "barelogic"))
     ap.add_argument("--demo", action="store_true")
     args = ap.parse_args()
 

@@ -5,7 +5,7 @@
 <img src="./stats.svg" width="620" alt="Contributions in the last year"/>
 
 [portfolio](https://barelogic.github.io) &nbsp;·&nbsp;
-[github](https://github.com/VenkateshR-Karunya) &nbsp;·&nbsp;
+[github](https://github.com/barelogic) &nbsp;·&nbsp;
 [linkedin](https://www.linkedin.com/in/venkatesh-rathinasabapathy-671491322/) &nbsp;·&nbsp;
 [email](mailto:venkateshr.work@gmail.com)
 
